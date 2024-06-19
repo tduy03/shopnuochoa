@@ -1,0 +1,971 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+
+}
+
+input:hover {
+    cursor: pointer;
+
+}
+
+.top-header {
+    height: 30px;
+    background-color: darkgreen;
+    text-align: center;
+    color: aliceblue;
+    line-height: 30px;
+}
+
+.header {
+    width:100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header .search-box {
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+}
+
+.ti-search:hover {
+    cursor:pointer;
+}
+
+.header .search-box .search-header {
+    position: absolute;
+    padding-top: 8px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.header .search-box .input-icon {
+    line-height: 40px;
+    max-width: 400px;
+    display: block;
+    padding-left: 10px;
+}
+
+.header .search-box .input-icon input {
+    height: 40px;
+    width: 100px;
+    border-radius: 42px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-size: 16px;
+    
+}
+
+.header .search-box:hover .input-icon input {
+    width: 360px;
+    transition: 0.5s;
+}
+
+.header .search-box:hover {
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+p.content {
+    display: flex;
+}
+
+
+.header .header-content {
+    display: flex;
+    align-items: center;
+    line-height: ;
+    margin-top: 10px;
+}
+
+.header .header-content .menu-section {
+    display: flex;
+
+}
+
+.header .icon {
+    padding: 0 10px;
+    font-size: 27px;
+}
+
+.header .menu-section a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.header .menu-section a:hover {
+    color: green;
+}
+
+.header .menu-section .content {
+    line-height: 30px;
+    margin: 0 10px;
+}
+
+.header .menu-section .icon:hover {
+    color:green;
+}
+
+.menu-icon-center {
+    padding: 0 10px;
+}
+
+.header .shop-name .logo-img {
+    width: 190px;
+    max-width: 190px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.menu .nav {
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    width: 100%;
+    height:50px;
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu .nav li  {
+    display: inline-block;
+
+
+}
+
+.menu .nav li:hover a {
+    color: green ;
+}
+
+.menu .nav li a  {
+    align-items: center;
+    text-decoration: none;
+    color:black;
+    line-height: 50px;
+    padding: 0 40px;
+    display: block;
+    font-size: 18px;
+
+
+}
+
+.menu .nav .subnav {
+    display: none;
+
+}
+
+.banner body {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner .slide-show {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.banner .list-images {
+    display: flex;
+   transition: 0.5s;
+}
+.banner .btn:hover {
+    color: white;
+}
+.banner .btn {
+    font-size: 45px;
+    color: #999;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.banner .btn-left {
+    left: 0;
+}
+.banner .btn-right {
+    right: 0;
+}
+.banner .index-images {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.banner .index-item {
+    border: 2px solid #999;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 50%;
+}
+.banner .active {
+    background-color: #999;
+}
+
+
+ .fist-main {
+    text-align: center;
+    padding: 10px 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+ .main .main-content {
+    display: flex;
+}
+
+ .main .box-item {
+    width: 250px;
+    height: 330px;
+    margin: 10px 12px;
+    padding: 30px 12px;
+    display: inline-block;
+
+   
+}
+
+.main .box-item .buy-now{
+    display: none;
+    
+}
+
+.main .box-item:hover .buy-now{
+    display: block;
+    transition: all 0.3s ease 0s;
+    position: absolute;
+    margin-left: -12px;
+    margin-top: -30px;
+    background-color: #d72229;
+    width: 100%;
+    color: white;
+    padding: 10px 0px;
+}
+
+
+ .main .box-item:hover {
+    transform: translate3d(0px, -10px, 0px);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 15px;
+    transition: all 0.3s ease 0s;
+    
+}
+
+
+ .main .box-item:hover img {
+    
+
+}
+.main .box-item img {
+    width: 100%;
+}
+
+ .main .box-item .content-item .content {
+    margin: 5px; 
+
+}
+
+.main .box-item a  {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+
+}
+
+.index-show-on-desk {
+    display: block;
+}
+
+.container {
+}
+@media (min-width: 1200px){
+
+    .container {
+        width: 1170px;
+    }
+
+}
+
+@media (min-width: 992px){
+.container {
+    width: 970px;
+}}
+@media (min-width: 768px){
+
+    .container {
+       
+    }
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.home-banner-block-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.home-banner-block-list .banner-block-list {
+    width: 32.5%;
+    position: relative;
+}
+
+.home-banner-block-list .banner-block-list a {
+    display: block;
+}
+a {
+    outline: none;
+}
+
+.home-banner-block-list .banner-block-list .image-reponsive {
+    object-fit: cover;
+}
+img {
+    max-width: 100%;
+}
+
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+
+.home-banner-block-list .banner-block-list h3.black {
+    color: #3A393A;
+}
+
+.home-banner-block-list .banner-block-list h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    left: 0;
+}
+
+/* chi tiet san pham */
+
+.product-details {
+    padding-bottom: 50px;
+}
+
+.product-details>h3 {
+    padding-left: 20px;
+}
+
+.product-details .main-product {
+    padding: 0 50px;
+    display: flex;
+}
+
+.product-details .product-left {
+    width: 60%;
+}
+
+.product-details .main-img {
+    width: 60%;
+}  
+
+.product-details .img-product {
+    display: flex;
+}  
+
+.product-details .item-img {
+    width: 100%;
+}
+
+.product-details .img-product .img-more {
+    width: 15%;
+}
+
+.product-details .img-product .img-more>img {
+    width:100%;
+    padding: 0 0 10px 15px;
+    box-sizing: border-box;
+
+}
+
+.product-details .content-product {
+
+}
+
+.product-details .title {
+
+}
+
+.product-details .content {
+
+}
+
+.product-details .product-right {
+    margin-left: 0px;
+    width: 40%;
+}
+
+.product-details .brand {
+
+}
+
+.product-details .product-title {
+
+}
+
+.product-details .category {
+
+}
+
+.product-details .price-product {
+    margin: 20px 0px;
+    font-size: 24px;
+}
+
+.product-details .buy-form {
+
+}
+
+.product-details .size-box>p {
+    margin-bottom: 
+    ;
+}
+
+.product-details .size-box select {
+    width: 100%;
+    height: 30px;
+
+}
+
+.product-details .buy-box {
+    margin: 20px 0;
+    display: flex;
+    width: ;
+}
+.product-details .buy-box .quantity {
+    width: 40%;
+    
+}
+
+.product-details .buy-box>div {
+    margin: 20px 0;
+    display: flex;
+    margin: 0 2px;
+    height: 30px;
+    width: 100%;
+}
+
+.product-details .product-right .opacity {
+    color: #666;
+
+}   
+
+.product-details .add-to-cart .button {
+    border: none;
+    color: white;
+    background-color: black;
+    display: block;
+    text-align: center;
+    line-height: 2px;
+    width: 100px;
+    
+}
+
+.product-details .buy-now>.button {
+    font-size: 18px;
+    width: 110px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: black;
+    display: block;
+    text-align: center;
+    line-height: 10px;
+}
+
+.desc-btn {
+    display: flex;
+    margin-top: 40px; 
+}
+
+.desc-btn>button {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    background: none;
+    padding: 10px 0;
+    border: none;
+    border-bottom: solid 1px #ccc;
+    margin: 0 10px;
+}
+
+
+
+/* chi tiet san pham */
+
+.side-bar .side-box {
+    border-bottom: solid 1px rgba(0, 0, 0, 0.15);
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.side-bar .side-box .price-box {
+    display : flex
+}
+
+.side-bar .side-box .rows-fill input {
+    width: 100px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.side-bar .side-box .rows {
+    display: flex;
+    line-height: 5px;
+    font-size: 18px;
+    padding-left: 10px
+}
+
+.side-bar .side-box .rows p {
+    padding-left: 10px
+}
+
+
+.last-main {
+    margin: 20px 30px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.last-main .more-button {
+    display: block;
+    width: 160px;
+    height: 30px;
+    border-radius: 42px;
+    border: solid 2px green;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.last-main .more-button:hover {
+    color: white;
+    background-color: #4CAF50;
+}
+
+.footer {
+    border-top: solid 1px;
+    text-align: ;
+}
+
+
+.footer p {
+   
+    display: inline-block;
+    
+}
+
+.footer .policy {
+    background: #000;
+    color: #FFF;
+    padding: 40px 0;
+}
+.footer section {
+    width: 100%;
+    float: left;
+}
+@media (min-width: 1200px){
+.container {
+    width: 1170px;
+}
+}
+.footer .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer .container .row {
+display: flex;
+margin-right: -15px;
+margin-left: -15px;
+}
+.footer .col-sm-6 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+   
+        width: 50%;
+
+    }
+    
+    
+
+
+.footer .policy .item {
+    padding: 15px 0;
+}
+
+.footer .policy h4 {
+    color: #FFF;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.footer .policy .item.social a {
+    display: inline-block;
+    background: #FFF;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 9px 10px 0 0;
+}
+ 
+.footer .policy .item.mailchimp form {
+    margin: 0;
+    position: relative;
+}
+
+.footer .policy .item.mailchimp form input {
+    height: 45px;
+    width: 70%;
+    line-height: 45px;
+    padding-right: 40px;
+    margin: 0;
+    border: none;
+}
+
+.footer button {
+    height: 30px;
+    width: 40px;
+}
+
+
+
+/* css admin */
+        .action-btn-adm {
+            text-decoration: none;
+            background-color: rgb(74, 179, 74);
+            padding: 3px 3px;
+            color: white;
+        }
+
+
+        .admin-user {
+       
+        }
+
+        .admin-main table {
+            line-height: 30px;
+            border-collapse: collapse;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        .admin-main th {
+            background-color: #333;
+            color: #fff;
+            font-weight: bold;
+            padding: 8px;
+        }
+
+        .admin-main td {
+            padding: 8px;
+        }
+
+            .admin-prd body {
+                font-family: Arial, sans-serif;
+            }
+
+            .admin-prd h2 {
+                color: #333;
+                text-align: center;
+            }
+
+            .admin-prd .form-container {
+                max-width: 500px;
+                margin: 0 auto;
+            }
+
+            .admin-prd .form-label {
+                display: block;
+                margin-top: 10px;
+                color: #666;
+            }
+
+            .form-input {
+                width: 100%;
+                padding: 8px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+            }
+
+            .admin-prd .form-file-input {
+                display: block;
+                margin-top: 10px;
+            }
+
+            .admin-prd .form-submit-button {
+                background-color: rgb(74, 179, 74);
+                color: #fff;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 4px;
+                cursor: pointer;
+                margin: 10px 0px;
+            }
+
+
+/* css dang nhap va dang ky */
+
+.acount {
+
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  .acount .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .acount h2 {
+    text-align: center;
+  }
+  
+  .acount .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .acount .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .acount .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .acount .form-group button,
+  .acount .form-group .btn {
+    width: 100%;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    
+
+  }
+  
+  .acount .form-group button:hover {
+    background-color: #45a049;
+  }
+  .acount .form-group a:hover {
+    background-color: #45a049;
+  }
+
+  /* css thanh toan */
+
+.cart-details {
+    box-sizing: border-box;
+    margin: 40px 100px;
+    font-size: 18px;
+}
+
+.cart-details .main-cart {
+    display: flex;
+}
+
+.cart-left {
+    width: 70%;
+}
+
+.cart-header-flex {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    padding-bottom:10px;
+   
+}
+
+.cart-header-flex>div {
+    padding: 10px 0;
+    width: 200px;
+    text-align: center;}
+
+.content-prd-oder {
+    display: flex;
+    padding: 10px 0;
+    border-top: solid rgba(0, 0, 0, 0.2) 1px;
+}
+
+.content-prd-flex>img {
+    width: 100%;
+ 
+}
+.content-prd-flex {
+    width: 155.3px;
+    text-align: center;
+}
+
+.sale-price>del {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.content-prd-flex input {
+    width: 30%;
+    height: 30px;
+    
+}
+
+.note-box input {
+    width: 100%;
+    height: 100px;
+}
+
+.sum-cart {
+
+}
+
+.note-box {
+
+}
+
+.payment-method img {
+    width: 70px;
+    height: 30px;
+    padding: 10px 0 0 10px;
+}
+
+.pay-continue a{
+    margin: 20px 0px;
+    display:    inline-block ;
+    color: #333;
+}
+.pay-continue .pay-btn {
+    float: right;
+    text-decoration: none;
+    padding: 20px 100px;
+    background-color: black ;
+    color: #fff;
+}
+
+.pay-btn {
+
+}
+
+.cart-right {
+    padding-left: 10px;
+    width: 100%;
+    background-color:rgba(204, 204, 204, 0.2);
+    margin-left: 50px;
+}
+.cart-right>div{
+    padding: 20px;
+    border-top: solid rgba(0, 0, 0, 0.2) 1px;
+}
+
+.bill-prd {
+    display: flex;
+    width: %;
+}
+
+.bill-prd>div {
+    width: 100%;
+}
+
+
+.decs {
+
+}
+
+.price-prd {
+    display: flex;
+
+}
+
+.price-oder {
+    display: flex;
+
+}
+
+.price-oder>div {
+    width: 100%;
+}
+
+/*css hoan tat tt */
+
+.cart-details form input,
+.selects select {
+    box-shadow: 0 0 0 1px #d9d9d9;
+    transition: all 0.2s ease-out;
+    background-color: white;
+    color: #333333;
+    border-radius: 4px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.94em 2.8em 0.94em 0.8em;
+    word-break: normal;
+    -webkit-font-smoothing: inherit;
+    border: none;
+    background: transparent;
+    line-height: normal;
+    margin: 6px 6px 6px 0;
+}
+
+.selects {
+    display: flex;
+    
+}
+.selects #district {
+  
+}
+
+form .email-phone-flex {
+    display: flex;
+}
+
+
+
+
+
